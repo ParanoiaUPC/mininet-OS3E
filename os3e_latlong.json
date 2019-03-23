@@ -1,0 +1,138 @@
+{
+    "Sunnyvale": {
+        "Latitude": "37.371612", 
+        "Longitude": "-122.038258"
+    }, 
+    "Nashville": {
+        "Latitude": "36.167783", 
+        "Longitude": "-86.778365"
+    }, 
+    "Raleigh": {
+        "Latitude": "35.785510", 
+        "Longitude": "-78.642669"
+    }, 
+    "Chicago": {
+        "Latitude": "41.884150", 
+        "Longitude": "-87.632409"
+    }, 
+    "ElPaso": {
+        "Latitude": "31.759165", 
+        "Longitude": "-106.487494"
+    }, 
+    "Denver": {
+        "Latitude": "39.740010", 
+        "Longitude": "-104.992259"
+    }, 
+    "Dallas": {
+        "Latitude": "32.778155", 
+        "Longitude": "-96.795404"
+    }, 
+    "Louisville": {
+        "Latitude": "38.254860", 
+        "Longitude": "-85.766404"
+    }, 
+    "Vancouver": {
+        "Latitude": "49.260440", 
+        "Longitude": "-123.114034"
+    }, 
+    "Washington": {
+        "Latitude": "38.890370", 
+        "Longitude": "-77.031959"
+    }, 
+    "Indianapolis": {
+        "Latitude": "39.766910", 
+        "Longitude": "-86.149964"
+    }, 
+    "Pittsburgh": {
+        "Latitude": "40.438335", 
+        "Longitude": "-79.997459"
+    }, 
+    "BatonRouge": {
+        "Latitude": "30.443335", 
+        "Longitude": "-91.186994"
+    }, 
+    "Albuquerque": {
+        "Latitude": "35.084180", 
+        "Longitude": "-106.648639"
+    }, 
+    "LosAngeles": {
+        "Latitude": "34.053490", 
+        "Longitude": "-118.245319"
+    }, 
+    "Atlanta": {
+        "Latitude": "33.748315", 
+        "Longitude": "-84.391109"
+    }, 
+    "Memphis": {
+        "Latitude": "35.149680", 
+        "Longitude": "-90.048929"
+    }, 
+    "Jacksonville": {
+        "Latitude": "30.331380", 
+        "Longitude": "-81.655799"
+    }, 
+    "Miami": {
+        "Latitude": "25.728985", 
+        "Longitude": "-80.237419"
+    }, 
+    "KansasCity": {
+        "Latitude": "39.102960", 
+        "Longitude": "-94.583062"
+    }, 
+    "Missoula": {
+        "Latitude": "46.872780", 
+        "Longitude": "-113.996234"
+    }, 
+    "Philadelphia": {
+        "Latitude": "39.952270", 
+        "Longitude": "-75.162369"
+    }, 
+    "Tucson": {
+        "Latitude": "32.221553", 
+        "Longitude": "-110.969754"
+    }, 
+    "Buffalo": {
+        "Latitude": "42.885440", 
+        "Longitude": "-78.878464"
+    }, 
+    "Houston": {
+        "Latitude": "29.760450", 
+        "Longitude": "-95.369784"
+    }, 
+    "Boston": {
+        "Latitude": "42.358635", 
+        "Longitude": "-71.056699"
+    }, 
+    "Minneapolis": {
+        "Latitude": "44.979035", 
+        "Longitude": "-93.264929"
+    }, 
+    "NewYork": {
+        "Latitude": "40.714550", 
+        "Longitude": "-74.007124"
+    }, 
+    "SaltLakeCity": {
+        "Latitude": "40.759505", 
+        "Longitude": "-111.888229"
+    }, 
+    "Cleveland": {
+        "Latitude": "41.504365", 
+        "Longitude": "-81.690459"
+    }, 
+    "Jackson": {
+        "Latitude": "32.298690", 
+        "Longitude": "-90.180489"
+    }, 
+    "Portland": {
+        "Latitude": "45.511795", 
+        "Longitude": "-122.675629"
+    }, 
+    "Seattle": {
+        "Latitude": "47.603560", 
+        "Longitude": "-122.329439"
+    }, 
+    "Ashburn": {
+        "Latitude": "39.051631", 
+        "Longitude": "-77.483151"
+    }
+}
