@@ -1,5 +1,7 @@
 import re, json
 import networkx as nx
+import sys
+sys.path.append(".")
 import Topology
 from mininet.topo import Topo
 
@@ -13,21 +15,28 @@ def calc_latency(weight):
     return weight / METERS_TO_MILES / (3 * 1e8) * 1000
 
 
+switches = {}
+hosts = {}
+
+
 class OS3ETopo(Topo):
     def __init__(self):
         Topo.__init__(self)
-        self.switches = {}
-        self.hosts = {}
         g = Topology.OS3EWeightedGraph()
+        i = 0
         for node in g.nodes:
-            self.switches[node] = self.addSwitch(node)
+            switches[node] = self.addSwitch('s'+str(i))
+            i += 1
         for edge in g.edges:
             weight = g[edge[0]][edge[1]]['weight']
             delay = calc_latency(weight)
             if weight is not None:
-                self.addLink(self.switches[edge[0]], self.switches[edge[1]], delay=str(delay)+'ms')
+                self.addLink(switches[edge[0]], switches[edge[1]], delay=str(delay)+'ms')
+        j = 0
         for node in g.nodes:
-            self.hosts[node] = self.addHost(node+'-host')
-            self.addLink(self.switches[node], self.hosts[node])
+            hosts[node] = self.addHost('h'+str(j))
+            j += 1
+            self.addLink(switches[node], hosts[node])
+
 
 topos = {'mytopo': (lambda: OS3ETopo())}
