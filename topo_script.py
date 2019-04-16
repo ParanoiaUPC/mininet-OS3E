@@ -1,3 +1,5 @@
+# author: ParanoiaUPC
+# email: 757459307@qq.com
 import re, json
 import networkx as nx
 import sys
